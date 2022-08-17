@@ -1,0 +1,567 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+    
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8770CB;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0D152A;
+    height: 100px;
+    width: 100%;
+    padding: 10px 100px;
+    margin-bottom: 20px;  
+    
+
+}        
+                  /**menu hamburguesa*/
+
+
+
+.logo img{
+     height: 90px;
+     width: 20vh;
+}
+
+main {
+    padding: 0 100px;
+}
+
+.secciones{
+    float: right;
+    letter-spacing: 1px;
+    
+    
+}
+.secciones li{
+     list-style: none;
+     display: inline;
+     
+     
+}
+.secciones a{
+      text-decoration: none;
+      
+      
+}
+.secciones a:hover{
+             color: #4865ad;
+             
+             
+}
+                      /**=======Seccion de inicio========*/
+
+.inicio {                 /**imagen de fondo*/
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/inicio.png"); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #78B9E1;
+}
+
+a {
+    text-decoration: none;
+    color:#78B9E1;
+}
+
+
+.titulo{                /**=====Primer titulo=====*/
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-color:rgba(55, 76, 131, 70%);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+   
+}
+
+.parrafo1{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(135, 112, 203, 80%) ;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+    
+}
+
+.parrafo2{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(135, 112, 203, 80%);
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+
+}
+                 /**=====Segundo titulo=====*/
+.caja1{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(55, 76, 131, 70%);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+.parrafo3{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(135, 112, 203, 85%);
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+
+}
+                  /**=====Secciones=====*/
+h3{
+    width: 100%;
+    background-color:rgba(55, 76, 131, 70%) ;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.seccion-terapia{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:stretch;
+    align-content:stretch;
+    border-radius: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+
+
+.item{
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    min-width: 250px;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    box-sizing: content-box;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0 #78B9E1;
+    background-color: rgba(135, 112, 203, 80%);
+    border: 2px solid #419ed8;
+    text-align:center;
+    text-shadow:2px 2px 7px #fff,2px 2px 7px #fff;
+    font-size: 18px;
+    
+    
+}
+
+.item1{
+      background-position: center;
+      background-image: url(../images/flotacion.png);
+      
+}
+.item2{
+    background-position: center;
+    background-image: url(../images/flotacion.png);
+}
+
+.item3{
+    background-position: center;
+    background-image: url(../images/flotacion.png);
+}
+
+.item4{
+    background-position: center;
+    background-image: url(../images/flotacion.png);
+}
+
+.item5{
+    background-position: center;
+    background-image: url(../images/flotacion.png);
+}
+
+.item6{
+    background-position: center;
+    background-image: url(../images/flotacion.png);
+}
+
+.copy{
+    color: #78B9E1;
+}
+footer{
+    width: 100%;
+    padding: 10px 100px ;
+    background-color:  #0D152A;
+}
+.subir{
+     height: 50px;
+     width: 50px;
+     background-color: #4865ad;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     font-size: 40px;
+     border-radius: 50px;
+     display: grid;
+     place-content: center;
+
+}
+
+.instagram{
+           font-size: x-large;
+}
+
+.twitter{
+          font-size: x-large;
+}
+
+.linkedin{
+          font-size: x-large;
+}
+
+.spotify{
+         font-size: x-large;
+}
+
+.youtube{
+        font-size: x-large;
+}
+            /**======Seccion sobre mi=======*/ 
+
+.sobremi{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/sobremi.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.caja{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color:rgba(55, 76, 131, 70%);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+
+          
+.caja2{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px ;
+    text-align: center;
+    background-color:rgba(55, 76, 131, 70%);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    
+
+}
+
+.seccion-cuadros{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:stretch;
+    align-content: stretch;
+    border-radius: 10px;
+    gap: 10px;
+    
+    
+}
+
+
+.seccion-cuadros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+
+.items{
+    padding: 20px;
+    height: 220px;
+    margin-bottom: 10px;
+    min-width: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: content-box;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0 #78B9E1;
+    background-color: rgba(135, 112, 203, 80%);
+    border: 2px solid #419ed8;
+    text-align:center;
+    text-shadow:2px 2px 7px #fff,2px 2px 7px #fff;
+    font-size: 18px;
+    
+    
+    
+}
+
+.pint1{
+      
+      background-position: center;
+      background-image: url(../images/cuadros.png);
+      
+      
+}
+
+.pint2{
+      
+      background-position: center;
+      background-image: url(../images/cuadros2.png);
+}
+
+
+.pint4{
+    
+    background-position: 50%;
+    background-image: url(../images/cuadros4.png);
+}
+
+
+                        /**SECCION LIBROS*/
+
+.libros{            /**imagen de fondo*/
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/libros.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.dreams{
+        text-align:center;
+        background-color: rgba(135, 112, 203, 75%);
+        border-radius: 5px;
+}
+.dreams{
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        background-position: right;
+
+}
+
+.seccion-libros{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:stretch;
+    align-content: stretch;
+    border-radius: 10px;
+    gap: 10px;
+    
+    
+}
+
+
+.item{
+    padding: 20px;
+    height: 280px;
+    margin-bottom: 10px;
+    min-width: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: content-box;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0 #78B9E1;
+    background-color: rgba(135, 112, 203, 80%);
+    border: 2px solid #419ed8;
+    text-align:center;
+    text-shadow:2px 2px 7px #fff,2px 2px 7px #fff;
+    font-size: 18px;
+    
+    
+    
+}
+
+
+.book1{
+       background-image: url("../images/bookone.png");
+       
+}
+
+.book2{
+    background-image:url("../images/booktwo.png") ;
+
+}
+
+.book3{
+    background-image:url("../images/bookthree.png") ;
+   
+}
+
+.book4{
+    background-image:url("../images/bookfour.png") ;
+
+}
+
+                 /**=======Seccion de musica=======*/
+
+.musica{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/emotion.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.portada4{
+         padding:20px;
+         margin: 20px;
+         height: 50vh;
+         background-image: url("../images/emotion.png");
+         background-size: cover;
+         background-position: center;
+         border-radius: 10px;
+         
+        
+}
+
+/**========Seccion de contacto=======*/
+
+.contacto{
+       text-align: center;
+}
+
+.formulario{
+            padding: 10px;
+            text-align: center;
+            letter-spacing: 1px;
+}
+
+.opciones{
+          font-size: medium;
+}
+
+.information{
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px;
+            background-color:#374d83ab
+}
+
+.texto{
+     padding: 10px;
+     margin: 10px;
+     resize: none;
+     font-size: large;
+}
+
+.boton{
+       padding: 5px;
+       font-size: medium;
+}
+
+
+           /**=========MEDIA QUERIES=========*/
+
+                      /**DESKTOP*/
+@media screen and (max-width:1024px){
+    .seccion-terapia{              /**desktop inicio*/
+        grid-template-columns: repeat(3, 1fr);
+     }
+    }
+    main {
+        padding: 0 75px;
+    }
+    header{
+        padding: 0 75px;
+    }
+
+                                    /**desktop sobremi*/
+    .seccion-cuadros{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+   main {
+       padding: 0 75px;
+   }
+   
+   
+                                 /**desktop libros*/
+
+    .seccion-libros{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    main{
+        padding: 0 75px;
+    }
+                   /**TABLET*/
+                   
+@media screen and (max-width:768px){
+     .seccion-terapia {            /**tablet incio*/
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+    main {
+        padding: 0 50px;
+    }
+    header{
+        padding: 0 50px;
+    }                               
+    
+                                /**tablet sobre mi*/
+    .seccion-cuadros {
+             grid-template-columns: 1fr;
+     }
+
+    main {
+        padding: 0 50px;
+    }        
+}
+
+                              /**tablet libros*/
+
+    .seccion-libros{
+           grid-template-columns: 1fr;
+    }               
+
+    main{
+        padding: 0 50px ;
+    }
+
+                 /**MOBILE*/
+@media screen and (max-width: 375px){ 
+     main {              
+        padding: 0 25px;
+    }
+                 
+    header{
+        padding: 0 25px;
+    }
+              
+              
+    
+}
