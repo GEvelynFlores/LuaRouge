@@ -26,6 +26,7 @@ header{
     padding: 10px;
     margin-bottom: 20px;
     background-color: #0D152A;
+    
 }
 nav{
     height: 100px;
@@ -33,11 +34,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .logo{
      width: 100px;
-     margin-left: 20px;
+     
 }
 
 .bar-btn{
@@ -57,6 +59,7 @@ nav{
     transition: all .5s;
     z-index: 100;
     backdrop-filter: blur(2px);
+
 }
 
 .nav-menu li{
@@ -91,28 +94,6 @@ nav{
     display: block;
 }
 
-/*.secciones{
-    float: right;
-    letter-spacing: 1px;
-    
-    
-}
-.secciones li{
-     list-style: none;
-     display: inline;
-     
-     
-}
-.secciones a{
-      text-decoration: none;
-      
-      
-}
-.secciones a:hover{
-             color: #4865ad;
-             
-             
-} */
                       /**=======Seccion de inicio========*/
 
 .inicio {                 /**imagen de fondo*/
@@ -552,6 +533,8 @@ footer{
         padding: 0 75px;
     }
 
+
+
                                     /**desktop sobremi*/
     .seccion-cuadros{
         grid-template-columns: repeat(3, 1fr);
@@ -582,7 +565,9 @@ footer{
     }
     header{
         padding: 0 50px;
-    }                               
+    }                     
+    
+    
     
                                 /**tablet sobre mi*/
     .seccion-cuadros {
