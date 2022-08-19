@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
 }
 
@@ -14,32 +15,83 @@ body {
     background-color: #8770CB;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #0D152A;
-    height: 100px;
-    width: 100%;
-    padding: 10px 100px;
-    margin-bottom: 20px;  
-    
-
-}        
-                  /**menu hamburguesa*/
-
-
-
-.logo img{
-     height: 90px;
-     width: 20vh;
-}
-
 main {
     padding: 0 100px;
 }
 
-.secciones{
+                  /**menu hamburguesa*/
+header{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #0D152A;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+     width: 100px;
+     margin-left: 20px;
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: #419ed8;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height:0 ;
+    top: 100px;
+    background: rgba(55, 76, 131, 70%);
+    text-align: center;
+    transition: all .5s;
+    z-index: 100;
+    backdrop-filter: blur(2px);
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 40px 0;
+    transition: all 5s;
+}
+
+.nav-menu li a{
+    color: #419ed8;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: #ffffff;
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+/*.secciones{
     float: right;
     letter-spacing: 1px;
     
@@ -60,7 +112,7 @@ main {
              color: #4865ad;
              
              
-}
+} */
                       /**=======Seccion de inicio========*/
 
 .inicio {                 /**imagen de fondo*/

@@ -16,15 +16,17 @@
   <title>Lúa Rouge</title>
 </head>
 <body class="inicio">
-   <header class="menu"> 
-                   <!--logo de la pagina-->
-             <div class="logo">
-                <img src="images/logoluarouge.png" alt="logopagina">
-                
+   <header> <!-- Barra de navegacion con menu hamburguesa--> 
+                      
+        <nav>
+            <div>
+                <img src="images/logoluarouge.png" class="logo">
              </div>
-
-        <nav class="secciones">
-            <ul>          <!--Secciones-->
+             <input type="checkbox" id="check">
+             <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+             </label>
+            <ul class="nav-menu">          
                 <li><a href="#">Inicio</a></li>
                 <li><a href="./pages/sobremi.html">Sobre Mi</a></li>
                 <li><a href="./pages/libros.html">Libros</a></li>
